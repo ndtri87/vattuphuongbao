@@ -4,7 +4,7 @@ import expressAsyncHandler from 'express-async-handler';
 import Product from '../models/productModel.js';
 
 const categoryRouter = express.Router();
-
+// Test
 categoryRouter.get(
     '/',
     expressAsyncHandler(async (req, res) =>{
